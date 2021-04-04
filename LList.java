@@ -191,7 +191,7 @@ public class LList implements Ilist {
 
     @Override
     public boolean removeAll(int[] ar) {
-       Node node = head;
+       Node node;
         for (int i = 0; i < ar.length; i++) {
             node = head;
             while (node.next != null) {
